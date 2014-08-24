@@ -1,0 +1,2 @@
+A Zip compression and file packaging/archive utility that creates ZIP files compatible with PKWARE's PKZIP.  
+Supports the ability to add files and subdirectories.  For example usage, view the included Test project.

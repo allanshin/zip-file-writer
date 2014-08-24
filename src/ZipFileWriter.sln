@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZipFileWriter", "ZipFileWriter\ZipFileWriter.vcproj", "{82A447A6-EBC9-4D4A-B54E-BF86DD4FF87F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "..\Test\Test.vcproj", "{1FED8993-3B75-4AB3-84CE-F3F2F96AD76E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{82A447A6-EBC9-4D4A-B54E-BF86DD4FF87F} = {82A447A6-EBC9-4D4A-B54E-BF86DD4FF87F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82A447A6-EBC9-4D4A-B54E-BF86DD4FF87F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{82A447A6-EBC9-4D4A-B54E-BF86DD4FF87F}.Debug|Win32.Build.0 = Debug|Win32
+		{82A447A6-EBC9-4D4A-B54E-BF86DD4FF87F}.Release|Win32.ActiveCfg = Release|Win32
+		{82A447A6-EBC9-4D4A-B54E-BF86DD4FF87F}.Release|Win32.Build.0 = Release|Win32
+		{1FED8993-3B75-4AB3-84CE-F3F2F96AD76E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1FED8993-3B75-4AB3-84CE-F3F2F96AD76E}.Debug|Win32.Build.0 = Debug|Win32
+		{1FED8993-3B75-4AB3-84CE-F3F2F96AD76E}.Release|Win32.ActiveCfg = Release|Win32
+		{1FED8993-3B75-4AB3-84CE-F3F2F96AD76E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
